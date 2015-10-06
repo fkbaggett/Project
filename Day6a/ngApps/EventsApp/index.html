@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html ng-app="EventsApp">
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body ng-controller="FavoriteColorController as vm">
+
+    <!--<button ng-click="vm.pick('red')">red</button>
+    <button ng-click="vm.pick('blue')">blue</button>
+    <button ng-click="vm.pick('green')">green</button>-->
+
+    <hr />
+
+    {{vm.result}}
+
+    <hr />
+
+    <form ng-submit="vm.submitForm()"></form>
+        <input ng-model="number1"  placeholder="First number" />
+        <input ng-model="number2" placeholder="Second number" />
+        <input type="submit" value="Add Numbers" />
+
+
+
+    <script src="../../Scripts/angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="controllers.js"></script>
+</body>
+</html>

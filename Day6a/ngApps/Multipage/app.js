@@ -14,6 +14,10 @@ var MultiPageApp;
             templateUrl: '/ngApps/MultiPage/page2.html',
             controller: 'Page2Controller as vm'
         })
+            .when('/page3', {
+            templateUrl: '/ngApps/MultiPage/page3.html',
+            controller: 'Page3Controller as vm'
+        })
             .otherwise('/');
         $locationProvider.html5Mode(true);
     });

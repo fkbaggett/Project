@@ -15,13 +15,13 @@ var MultiPage;
             }
             return Page2Controller;
         })();
-        angular.module('MultiPageApp').controller('Page2Controller', Page2Controller);
+        angular.module('MultiPageApp').controller('Page2Controller', Page3Controller);
         var Page3Controller = (function () {
             function Page3Controller() {
                 this.message = 'Resources';
             }
             return Page3Controller;
         })();
-        angular.module('MultiPageApp').controller('Page3Controller', Page3Controller);
+        angular.module('MultiPageApp').controller('Page3Controller', Page1Controller);
     })(Controllers = MultiPage.Controllers || (MultiPage.Controllers = {}));
 })(MultiPage || (MultiPage = {}));

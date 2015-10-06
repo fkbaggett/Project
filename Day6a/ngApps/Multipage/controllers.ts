@@ -11,12 +11,12 @@
         message = 'Products';
     }
 
-    angular.module('MultiPageApp').controller('Page2Controller', Page2Controller);
+    angular.module('MultiPageApp').controller('Page2Controller', Page3Controller);
 
     class Page3Controller {
         message = 'Resources';
     }
 
-    angular.module('MultiPageApp').controller('Page3Controller', Page3Controller);
+    angular.module('MultiPageApp').controller('Page3Controller', Page1Controller);
 
 }
